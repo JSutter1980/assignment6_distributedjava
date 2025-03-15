@@ -14,7 +14,7 @@ public class WholesaleOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "order_id")
-    private int id;
+    private long id;
 
     @Column(name = "purchase_order_num")
     private String purchaseOrderNum;
